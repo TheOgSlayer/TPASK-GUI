@@ -1,0 +1,11 @@
+name: TpaDialog
+version: 1.0.0
+main: com.example.tpadialog.TpaDialog
+api-version: "26.2"
+description: TPA / TPAHere using Minecraft's native dialog screens
+# Load before EssentialsX so /tpa belongs to this plugin instead of Essentials
+loadbefore: [Essentials]
+commands:
+  tpa:
+    description: Open the teleport request menu
+    usage: /tpa
